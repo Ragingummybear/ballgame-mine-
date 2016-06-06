@@ -15,8 +15,8 @@ public class Enemy
     {
         lvl=elvl;
         name=eName;
-        attack= (int)(Math.pow(2.0,(double)lvl));
-        hp=75+(25*lvl);
+        attack= 2*lvl;
+        hp=25+(5*lvl);
     }
     /*
      * Updates stats in case of a "level up"
