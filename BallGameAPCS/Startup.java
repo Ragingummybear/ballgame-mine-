@@ -65,7 +65,7 @@ public class Startup
         }
     }
 
-    public boolean explore()
+    public boolean explore() //look at google doc for more enemies
     {
         int outcome = (int)(Math.random()*7.0)+1;
         int option;

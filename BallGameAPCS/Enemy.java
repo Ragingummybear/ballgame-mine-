@@ -16,7 +16,7 @@ public class Enemy
         lvl=elvl;
         name=eName;
         attack= 2*lvl;
-        hp=25+(5*lvl);
+        hp=25+(lvl);
     }
     /*
      * Updates stats in case of a "level up"
