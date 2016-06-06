@@ -18,7 +18,7 @@ public class Startup
           
       x.begin();
       
-      Karel.turnOff();
+      
 }
     }
     
