@@ -24,7 +24,7 @@ public class Enemy
     public int getExp()
     {
         int exp = lvl;
-        System.out.println("You've beaten the level " + lvl + name+ "!");
+        System.out.println("You've beaten the level " + lvl + name + "!");
         System.out.println("You got " +exp+ "experience from this battle");
         return exp;
     }

@@ -1,8 +1,8 @@
 
 /**
- * Describes Boss and player stats
+ * Describes a Boss
  */
-public class Player
+public class Boss
 {
     private int lvl;
     private int attack;
@@ -12,7 +12,7 @@ public class Player
     /**
      * Constructor for objects of class Player
      */
-    public Player(String bName, int plvl)
+    public Boss(String bName, int plvl)
     {
         lvl=((plvl/10)+1)*10;
         attack= (int)(Math.pow(2.0,(double)lvl));
@@ -51,7 +51,7 @@ public class Player
         return attack;
     }
 
-    public String getPlayerName(){
-        return playername;
+    public String getBossName(){
+        return name;
     }
 }
