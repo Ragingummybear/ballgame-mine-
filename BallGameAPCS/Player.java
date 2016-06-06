@@ -24,12 +24,10 @@ public class Player
         exp=0;
         attack= (int)(Math.pow(2.0,(double)lvl));
         hp=75+(25*lvl);
-        System.out.println("What is your character's name? Choose wisely, this is what defines you.");
+        System.out.println("What is your character's name?");
         Scanner ev = new Scanner(System.in);
         playername = ev.next();
-       
 
-      
     }
     /*
      * Updates stats in case of a "level up"
