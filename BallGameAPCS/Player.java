@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * Describes player and player stats
@@ -7,6 +8,7 @@ public class Player
     private int lvl;
     private int attack;
     private int hp;
+    private String playername;
     /**
      * Constructor for objects of class Player
      */
@@ -15,7 +17,13 @@ public class Player
         lvl=1;
         attack= (int)(Math.pow(2.0,(double)lvl));
         hp=75+(25*lvl);
+        System.out.println("What is your character's name?");
+        Scanner ev = new Scanner(System.in);
+        playername = ev.next();
+
+        
     }
+    
     /*
      * Updates stats in case of a "level up"
      */
