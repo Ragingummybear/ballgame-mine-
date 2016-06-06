@@ -7,12 +7,16 @@ public class Player
     private int lvl;
     private int attack;
     private int hp;
+    private String name;
+    private int exp;
+    private int expCap;
     /**
      * Constructor for objects of class Player
      */
-    public Player()
+    public Player(String pName)
     {
         lvl=1;
+        exp=0;
         attack= (int)(Math.pow(2.0,(double)lvl));
         hp=75+(25*lvl);
     }
@@ -25,9 +29,15 @@ public class Player
         lvl++;
         attack= (int)(Math.pow(2.0,(double)lvl));
         hp=75+(25*lvl);
+        exp=0;
+        expCap=5*lvl;
         System.out.println("Your new stats read:");
         System.out.println("Attack: "+ attack);
         System.out.println("HP: "+hp);
+    }
+    public void updateExp(int bexp)
+    {
+        exp+=bexp;
     }
     /*
      * Returns player level.
