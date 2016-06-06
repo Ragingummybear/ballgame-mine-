@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=dmg\ name
+comment0.target=WeaponsC(int,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ weapon\n
+comment1.params=
+comment1.target=int\ getDamage()
+comment1.text=\n\ Returns\ damage\n
+comment2.params=
+comment2.target=java.lang.String\ getWeaponName()
+numComments=3
