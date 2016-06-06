@@ -26,7 +26,10 @@ public class Boss
     {
         return 5*lvl;
     }
-    
+    public void setHp(int nhp)
+    {
+        hp=nhp;
+    }
     /*
      * Returns player level.
      */

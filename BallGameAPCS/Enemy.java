@@ -35,10 +35,14 @@ public class Enemy
     {
         return lvl;
     }
+    public void setHp(int newHp)
+    {
+        hp=newHp;
+    }
      /*
      * Returns Enemy health.
      */
-    public int getHP()
+    public int getHp()
     {
         return hp;
     }

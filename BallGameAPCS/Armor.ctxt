@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=pdef
+comment0.target=Armor(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Armor\r\n
+comment1.params=
+comment1.target=int\ getDef()
+numComments=2
