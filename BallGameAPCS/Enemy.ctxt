@@ -1,17 +1,17 @@
 #BlueJ class context
 comment0.params=eName\ elvl
 comment0.target=Enemy(java.lang.String,\ int)
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Player\r\n
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Player\n
 comment1.params=
 comment1.target=int\ getExp()
-comment1.text=\r\n\ Updates\ stats\ in\ case\ of\ a\ "level\ up"\r\n
+comment1.text=\n\ Updates\ stats\ in\ case\ of\ a\ "level\ up"\n
 comment2.params=
 comment2.target=int\ getLvl()
-comment2.text=\r\n\ Returns\ Enemy\ level.\r\n
+comment2.text=\n\ Returns\ Enemy\ level.\n
 comment3.params=
 comment3.target=int\ getHP()
-comment3.text=\r\n\ Returns\ Enemy\ health.\r\n
+comment3.text=\n\ Returns\ Enemy\ health.\n
 comment4.params=
 comment4.target=int\ getAttack()
-comment4.text=\r\n\ Returns\ Enemy\ attack.\r\n
+comment4.text=\n\ Returns\ Enemy\ attack.\n
 numComments=5

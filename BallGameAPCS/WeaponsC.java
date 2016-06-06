@@ -15,7 +15,7 @@ public class WeaponsC {
      * Constructor for objects of class weapon
      */
     public WeaponsC(int dmg, String name) {
-        damage = dmg;
+        damage =  dmg; //needs to account for player damage
         weaponname = name;
         
     }

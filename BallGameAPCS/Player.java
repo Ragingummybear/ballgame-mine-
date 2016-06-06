@@ -24,13 +24,13 @@ public class Player
         exp=0;
         attack= (int)(Math.pow(2.0,(double)lvl));
         hp=75+(25*lvl);
-        System.out.println("What is your character's name?");
+        System.out.println("What is your character's name? Choose wisely, this is what defines you.");
         Scanner ev = new Scanner(System.in);
         playername = ev.next();
+       
 
-        
+      
     }
-    
     /*
      * Updates stats in case of a "level up"
      */
@@ -46,10 +46,12 @@ public class Player
         System.out.println("Attack: "+ attack);
         System.out.println("HP: "+hp);
     }
+
     public void updateExp(int bexp)
     {
         exp+=bexp;
     }
+
     /*
      * Returns player level.
      */
@@ -57,13 +59,15 @@ public class Player
     {
         return lvl;
     }
-     /*
+
+    /*
      * Returns player health.
      */
     public int getHP()
     {
         return hp;
     }
+
     /*
      * Returns player attack.
      */
@@ -71,8 +75,8 @@ public class Player
     {
         return attack;
     }
-    
+
     public String getPlayerName(){
         return playername;
-}
+    }
 }
