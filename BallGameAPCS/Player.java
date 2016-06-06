@@ -8,13 +8,13 @@ public class Player
     private int lvl;
     private int attack;
     private int hp;
-<<<<<<< HEAD
+
     private String playername;
-=======
+
     private String name;
     private int exp;
     private int expCap;
->>>>>>> origin/master
+
     /**
      * Constructor for objects of class Player
      */
@@ -71,4 +71,8 @@ public class Player
     {
         return attack;
     }
+    
+    public String getPlayerName(){
+        return playername;
+}
 }
