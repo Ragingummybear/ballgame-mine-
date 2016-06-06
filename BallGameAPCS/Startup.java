@@ -127,6 +127,8 @@ public class Startup
                         main.setHp(main.getHp()-edmg);
                         php=main.getHp();
                         ehp=enemy.getHp();
+                        System.out.println("You have" + php + "health.");
+                        System.out.println("Your enemy has" + ehp + "health.");
                     }
                     else if(turn ==2)
                     {
@@ -135,10 +137,12 @@ public class Startup
                             System.out.println("You used a medkit");
                             main.setHp(main.getHp()+(main.getLvl()*20));
                             medkits--;
+                            System.out.println("You have" + php + "health.");
                         }
                         else
                         {
                             System.out.println("You are out of medkits");
+                            System.out.println("You have" + php + "health. Good luck without those health kits!");
                         }
                     }
                     else
@@ -169,6 +173,8 @@ public class Startup
                         main.setHp(main.getHp()-edmg);
                         php=main.getHp();
                         ehp=enemy.getHp();
+                        System.out.println("You have" + php + "health.");
+                        System.out.println("Your enemy has" + ehp + "health.");
                     }
                     else if(turn ==2)
                     {
@@ -177,10 +183,12 @@ public class Startup
                             System.out.println("You used a medkit");
                             main.setHp(main.getHp()+(main.getLvl()*20));
                             medkits--;
+                            System.out.println("You have" + php + "health.");
                         }
                         else
                         {
                             System.out.println("You are out of medkits");
+                            System.out.println("You have" + php + "health. Good luck without those health kits!");
                         }
                     }
                     else
@@ -211,6 +219,8 @@ public class Startup
                         main.setHp(main.getHp()-edmg);
                         php=main.getHp();
                         ehp=enemy.getHp();
+                        System.out.println("You have" + php + "health.");
+                        System.out.println("Your enemy has" + ehp + "health.");
                     }
                     else if(turn ==2)
                     {
@@ -219,10 +229,12 @@ public class Startup
                             System.out.println("You used a medkit");
                             main.setHp(main.getHp()+(main.getLvl()*20));
                             medkits--;
+                            System.out.println("You have" + php + "health.");
                         }
                         else
                         {
                             System.out.println("You are out of medkits");
+                            System.out.println("You have" + php + "health. Good luck without those health kits!");
                         }
                     }
                     else
