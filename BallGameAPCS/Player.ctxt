@@ -1,4 +1,5 @@
 #BlueJ class context
+<<<<<<< HEAD
 comment0.params=
 comment0.target=Player()
 comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Player\n
@@ -15,3 +16,23 @@ comment4.params=
 comment4.target=int\ getAttack()
 comment4.text=\n\ Returns\ player\ attack.\n
 numComments=5
+=======
+comment0.params=pName
+comment0.target=Player(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Player\r\n
+comment1.params=
+comment1.target=void\ levelUp()
+comment1.text=\r\n\ Updates\ stats\ in\ case\ of\ a\ "level\ up"\r\n
+comment2.params=bexp
+comment2.target=void\ updateExp(int)
+comment3.params=
+comment3.target=int\ getLvl()
+comment3.text=\r\n\ Returns\ player\ level.\r\n
+comment4.params=
+comment4.target=int\ getHP()
+comment4.text=\r\n\ Returns\ player\ health.\r\n
+comment5.params=
+comment5.target=int\ getAttack()
+comment5.text=\r\n\ Returns\ player\ attack.\r\n
+numComments=6
+>>>>>>> origin/master
